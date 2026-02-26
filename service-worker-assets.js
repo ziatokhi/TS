@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "lLx4Gdav",
+  "version": "nAlUz5b9",
   "assets": [
     {
       "hash": "sha256-IFz982ooG5dmQabr2fWjWoyQKMCu5DNLLvHmLWY0Kuc=",
@@ -14,8 +14,8 @@ self.assetsManifest = {
       "url": "_content/MudBlazor/MudBlazor.min.js"
     },
     {
-      "hash": "sha256-uaJJky0/wRH1HWdLd8xolTFb6Cz1QwaBHa15S2FHq78=",
-      "url": "_framework/BikeBlazorPWA.zpagjw1d3d.wasm"
+      "hash": "sha256-VsmgTDmjscj/CFtiv4ljVF5lsVNkD/osybm/ADUWnqM=",
+      "url": "_framework/BikeBlazorPWA.urop13i940.wasm"
     },
     {
       "hash": "sha256-Y7O0neUhIE6hC5XucZMiCZvpHf9rYhtbjXLi53r70ac=",
@@ -310,7 +310,7 @@ self.assetsManifest = {
       "url": "_framework/System.Transactions.Local.au3h2aopv1.wasm"
     },
     {
-      "hash": "sha256-IURF/fHk8BiCkEVLWt1CQgbaoZorAWsSxZuLNMKo8c0=",
+      "hash": "sha256-AIklD3hyk+UC9B7E+bxTFM6rq0BQuZ4Y1Urh3Lyd+kY=",
       "url": "_framework/blazor.boot.json"
     },
     {
@@ -406,7 +406,7 @@ self.assetsManifest = {
       "url": "img/torque.png"
     },
     {
-      "hash": "sha256-X0BR5Bd7Td6KP9PhuwqbHA1E4G/9LfbpfvBwxhmBhJY=",
+      "hash": "sha256-QmNvBaLuf5eE4iXGhhV/hSi3dMSfvkwK0W+f6Kc0feY=",
       "url": "index.html"
     },
     {
