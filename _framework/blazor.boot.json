@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "BikeBlazorPWA",
   "resources": {
-    "hash": "sha256-O0/Zf6MUedhCb/NywRrmdT0doWEsLnKgCDYYlpZaw3I=",
+    "hash": "sha256-rXHRXb36xeNogNO7EAdw/mGXDjH21Q8T/AOzhYR6U5o=",
     "fingerprinting": {
       "Blazor.LocalStorage.WebAssembly.tc9pttsj1a.wasm": "Blazor.LocalStorage.WebAssembly.wasm",
       "Blazor.Serialization.jdu5pl14cc.wasm": "Blazor.Serialization.wasm",
@@ -30,7 +30,7 @@
       "Microsoft.Extensions.Primitives.4dxofymb0o.wasm": "Microsoft.Extensions.Primitives.wasm",
       "Microsoft.JSInterop.to13l1w5p5.wasm": "Microsoft.JSInterop.wasm",
       "Microsoft.JSInterop.WebAssembly.p386u0jty9.wasm": "Microsoft.JSInterop.WebAssembly.wasm",
-      "MudBlazor.bl5ep29ywj.wasm": "MudBlazor.wasm",
+      "MudBlazor.lgayyknunx.wasm": "MudBlazor.wasm",
       "SQLitePCLRaw.batteries_v2.sdspdo4vix.wasm": "SQLitePCLRaw.batteries_v2.wasm",
       "SQLitePCLRaw.core.uubjf3tta1.wasm": "SQLitePCLRaw.core.wasm",
       "SQLitePCLRaw.provider.e_sqlite3.fi94k82bq2.wasm": "SQLitePCLRaw.provider.e_sqlite3.wasm",
@@ -40,8 +40,8 @@
       "System.Collections.Specialized.migvrnnxrq.wasm": "System.Collections.Specialized.wasm",
       "System.Collections.84sr95e6pp.wasm": "System.Collections.wasm",
       "System.ComponentModel.Annotations.nw05b7gwiw.wasm": "System.ComponentModel.Annotations.wasm",
-      "System.ComponentModel.Primitives.wc1dxx3vz0.wasm": "System.ComponentModel.Primitives.wasm",
-      "System.ComponentModel.TypeConverter.dcl4f1revi.wasm": "System.ComponentModel.TypeConverter.wasm",
+      "System.ComponentModel.Primitives.esfg1sctfn.wasm": "System.ComponentModel.Primitives.wasm",
+      "System.ComponentModel.TypeConverter.i890ng0nyw.wasm": "System.ComponentModel.TypeConverter.wasm",
       "System.ComponentModel.tg3uam307r.wasm": "System.ComponentModel.wasm",
       "System.Console.lsj0vus7l6.wasm": "System.Console.wasm",
       "System.Data.Common.2rtow1i1nl.wasm": "System.Data.Common.wasm",
@@ -56,7 +56,7 @@
       "System.Linq.3omc5rfozt.wasm": "System.Linq.wasm",
       "System.Memory.vemk862i69.wasm": "System.Memory.wasm",
       "System.Net.Http.Json.2uednag82z.wasm": "System.Net.Http.Json.wasm",
-      "System.Net.Http.oomk3emr71.wasm": "System.Net.Http.wasm",
+      "System.Net.Http.hfhais5svk.wasm": "System.Net.Http.wasm",
       "System.Net.NetworkInformation.83u8pgk9by.wasm": "System.Net.NetworkInformation.wasm",
       "System.Net.Primitives.qnhjiaf2cv.wasm": "System.Net.Primitives.wasm",
       "System.ObjectModel.dz3g807dnz.wasm": "System.ObjectModel.wasm",
@@ -76,8 +76,8 @@
       "System.Transactions.Local.au3h2aopv1.wasm": "System.Transactions.Local.wasm",
       "System.7mkjnfwul0.wasm": "System.wasm",
       "netstandard.a7bl1af556.wasm": "netstandard.wasm",
-      "System.Private.CoreLib.u74aelb3f5.wasm": "System.Private.CoreLib.wasm",
-      "BikeBlazorPWA.ce08mh08z3.wasm": "BikeBlazorPWA.wasm",
+      "System.Private.CoreLib.0yh6qzuw70.wasm": "System.Private.CoreLib.wasm",
+      "BikeBlazorPWA.f1ho4umqk3.wasm": "BikeBlazorPWA.wasm",
       "dotnet.js": "dotnet.js",
       "dotnet.native.xidrk0eo52.js": "dotnet.native.js",
       "dotnet.native.y68cfu4kuf.wasm": "dotnet.native.wasm",
@@ -102,7 +102,7 @@
     },
     "coreAssembly": {
       "System.Runtime.InteropServices.JavaScript.86ud3rg0f2.wasm": "sha256-AAnORgj9Ao176Q0otUTy5BKaRjOgxF7p4H8d6UP6Ks0=",
-      "System.Private.CoreLib.u74aelb3f5.wasm": "sha256-2uUQ+rWLtLw2FkE/WOqpUfBj+552AGvykEBdjtdHpnM="
+      "System.Private.CoreLib.0yh6qzuw70.wasm": "sha256-qLkpbWesB4uUnOxne8BjfGGOQ6nImz/nn8tZaT8yO94="
     },
     "assembly": {
       "Blazor.LocalStorage.WebAssembly.tc9pttsj1a.wasm": "sha256-Y7O0neUhIE6hC5XucZMiCZvpHf9rYhtbjXLi53r70ac=",
@@ -132,7 +132,7 @@
       "Microsoft.Extensions.Primitives.4dxofymb0o.wasm": "sha256-GOr7jc/eCieZrQYoXRn79eLSsesIfFB55wQZIVTSNIY=",
       "Microsoft.JSInterop.to13l1w5p5.wasm": "sha256-s7vy7GhB9lWtwzOXRc3iGonghQTfdnhlRy2xRTUrBQA=",
       "Microsoft.JSInterop.WebAssembly.p386u0jty9.wasm": "sha256-hbzWuXrlepIqY/y+nQ2ZAFer2/njy1dc+Y4LUaAaL5E=",
-      "MudBlazor.bl5ep29ywj.wasm": "sha256-zyTID9j6QH9R32WBQ9OV4hJjhbNqb7bq4KVhfbry05A=",
+      "MudBlazor.lgayyknunx.wasm": "sha256-i3SaQWltqXWAVdvQ84qpRG278Au3ykj+GVS/fLBGUsI=",
       "SQLitePCLRaw.batteries_v2.sdspdo4vix.wasm": "sha256-EBdlJIx0oF67OlsbET7oQZWUEOVSwZFKzBCfZy3VsPE=",
       "SQLitePCLRaw.core.uubjf3tta1.wasm": "sha256-OtIBJUQ8LCbWmr5PBNEn+rCbFd5aHrPNXCv+0p3U2oA=",
       "SQLitePCLRaw.provider.e_sqlite3.fi94k82bq2.wasm": "sha256-J50F2aYj7NJ+t2wUb1GiYRhwVEBof97fmzrupKV+BEU=",
@@ -142,8 +142,8 @@
       "System.Collections.Specialized.migvrnnxrq.wasm": "sha256-XsxySQY1ONR08pLIzM87gTN8+6cl9Ijh6OIPAYbf+V8=",
       "System.Collections.84sr95e6pp.wasm": "sha256-GASF3unocrlPD7u4i1i2YMjSCXhcLAUBm4bYDtCIcKA=",
       "System.ComponentModel.Annotations.nw05b7gwiw.wasm": "sha256-KQX9Msy/YuLd5FIu6DLXHe6IZ6MQtDL+YB7eHaIh1WA=",
-      "System.ComponentModel.Primitives.wc1dxx3vz0.wasm": "sha256-IB0wZrTZkU1ddDvOspVqpwNeJsTzFLtf1EnXnzwn3O4=",
-      "System.ComponentModel.TypeConverter.dcl4f1revi.wasm": "sha256-DYgTDQ2ai/1WIFpei6EjOnajIIHCwKg+BT1Et7+r9wM=",
+      "System.ComponentModel.Primitives.esfg1sctfn.wasm": "sha256-Ersjk5Bu4uCfoA7BLrbUbIPfKz+AUAM+yPHs2TSnXok=",
+      "System.ComponentModel.TypeConverter.i890ng0nyw.wasm": "sha256-Plp+OLXpcra+mryH10uPizwhlX5yNQk2Jxv25BtUt+s=",
       "System.ComponentModel.tg3uam307r.wasm": "sha256-Df9vGzQqLyEZbekbPTgnpKQsV8Neb6vX8RAkRT7bEI4=",
       "System.Console.lsj0vus7l6.wasm": "sha256-y2TPwz1SjQ6KT7PdzhH+eAoRR2wuB3b6bGODjLCRwSA=",
       "System.Data.Common.2rtow1i1nl.wasm": "sha256-ntBYZwHl09hd1EeE5rK9nFkCJEj/oeflc9LjgcI3Mng=",
@@ -158,7 +158,7 @@
       "System.Linq.3omc5rfozt.wasm": "sha256-PaEYSRqBViOo0bfyUrZ/RsAROWezxvqBazyxsG7BRtk=",
       "System.Memory.vemk862i69.wasm": "sha256-idHrhrjALpaZCbCk4fPbrIJCaoliLfvHyhpqvZJSgnI=",
       "System.Net.Http.Json.2uednag82z.wasm": "sha256-WmuSGyT0f3R7ia5OkwdmcTEClo9ihrLd3zCsJRr3T6g=",
-      "System.Net.Http.oomk3emr71.wasm": "sha256-2Ko3yurdpnULicxvxcLkCmQssOXdzbeiIBOxqq8/Ij0=",
+      "System.Net.Http.hfhais5svk.wasm": "sha256-Q/eHTARjy+7N5Tn5R5JTeNascB6lHh54KFs7NsolNr4=",
       "System.Net.NetworkInformation.83u8pgk9by.wasm": "sha256-VMNhvxmNEVgiFJVaBwl9K1UeDVtAVupp+EyQnsH8Scg=",
       "System.Net.Primitives.qnhjiaf2cv.wasm": "sha256-2vUj9vDc9CCy+zbdFcuCXQYFdDRA+jhG+f2yZ0M68Ow=",
       "System.ObjectModel.dz3g807dnz.wasm": "sha256-18+xrxwTdHbTwqXzfPy2/9dm2dg/oL8CPUuZnSzzqWw=",
@@ -177,7 +177,7 @@
       "System.Transactions.Local.au3h2aopv1.wasm": "sha256-TmhVsex0iG68z5MocVMu8nwIJpTZc0YcOhlQ16hItTQ=",
       "System.7mkjnfwul0.wasm": "sha256-H4K9w0OHWwZCaMDfVwQjW0dSqnnS/iuCkysBB+Q2c3A=",
       "netstandard.a7bl1af556.wasm": "sha256-9mRpASi9PLwLBiWc4JqELRmpdfKFcdZXfo/W/16LgF4=",
-      "BikeBlazorPWA.ce08mh08z3.wasm": "sha256-BG4fDcFd0eVUYsdr2dPuzOfK7cgBdYSEFaDCKB3D7NE="
+      "BikeBlazorPWA.f1ho4umqk3.wasm": "sha256-vfdqQaHH4nuDKutm0KXmA0Zesn4cSjHM6vkKw7Feeiw="
     }
   },
   "cacheBootResources": true,
