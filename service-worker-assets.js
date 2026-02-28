@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "GTq1RhNZ",
+  "version": "qiZIf6bW",
   "assets": [
     {
       "hash": "sha256-IFz982ooG5dmQabr2fWjWoyQKMCu5DNLLvHmLWY0Kuc=",
@@ -406,7 +406,7 @@ self.assetsManifest = {
       "url": "img/torque.png"
     },
     {
-      "hash": "sha256-QmNvBaLuf5eE4iXGhhV/hSi3dMSfvkwK0W+f6Kc0feY=",
+      "hash": "sha256-+rc7n+oFn56U7jo0SuQ0nYOpT1cLBqMUC1h8KWyraL4=",
       "url": "index.html"
     },
     {
