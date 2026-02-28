@@ -1,4 +1,4 @@
-/* Manifest version: /Y/tZjen */
+/* Manifest version: GTq1RhNZ */
 // Caution! Be sure you understand the caveats before publishing an application with
 // offline support. See https://aka.ms/blazor-offline-considerations
 
@@ -38,19 +38,51 @@ async function onActivate(event) {
         .map(key => caches.delete(key)));
 }
 
-async function onFetch(event) {
-    let cachedResponse = null;
-    if (event.request.method === 'GET') {
-        // For all navigation requests, try to serve index.html from cache,
-        // unless that request is for an offline resource.
-        // If you need some URLs to be server-rendered, edit the following check to exclude those URLs
-        const shouldServeIndexHtml = event.request.mode === 'navigate'
-            && !manifestUrlList.some(url => url === event.request.url);
+//async function onFetch(event) {
+//    let cachedResponse = null;
+//    if (event.request.method === 'GET') {
+//        // For all navigation requests, try to serve index.html from cache,
+//        // unless that request is for an offline resource.
+//        // If you need some URLs to be server-rendered, edit the following check to exclude those URLs
+//        const shouldServeIndexHtml = event.request.mode === 'navigate'
+//            && !manifestUrlList.some(url => url === event.request.url);
 
-        const request = shouldServeIndexHtml ? 'index.html' : event.request;
-        const cache = await caches.open(cacheName);
-        cachedResponse = await cache.match(request);
+//        const request = shouldServeIndexHtml ? 'index.html' : event.request;
+//        const cache = await caches.open(cacheName);
+//        cachedResponse = await cache.match(request);
+//    }
+
+//    return cachedResponse || fetch(event.request);
+//}
+
+async function onFetch(event) {
+    if (event.request.method !== 'GET') {
+        return fetch(event.request);
     }
 
+    const cache = await caches.open(cacheName);
+
+    // Handle API calls separately
+    if (event.request.url.includes('/api/')) {
+        try {
+            // Try network first
+            const networkResponse = await fetch(event.request);
+            cache.put(event.request, networkResponse.clone());
+            return networkResponse;
+        } catch {
+            // If offline, return cached response if exists
+            const cachedResponse = await cache.match(event.request);
+            return cachedResponse || new Response("Offline and no cached data", { status: 503 });
+        }
+    }
+
+    // Existing Blazor behavior for navigation
+    const shouldServeIndexHtml =
+        event.request.mode === 'navigate' &&
+        !manifestUrlList.some(url => url === event.request.url);
+
+    const request = shouldServeIndexHtml ? 'index.html' : event.request;
+
+    const cachedResponse = await cache.match(request);
     return cachedResponse || fetch(event.request);
 }

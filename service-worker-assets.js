@@ -1,5 +1,5 @@
 self.assetsManifest = {
-  "version": "/Y/tZjen",
+  "version": "GTq1RhNZ",
   "assets": [
     {
       "hash": "sha256-IFz982ooG5dmQabr2fWjWoyQKMCu5DNLLvHmLWY0Kuc=",
@@ -586,7 +586,7 @@ self.assetsManifest = {
       "url": "lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "hash": "sha256-9W0kQw3WBHqn4mlaiK458e30dRoZYzNGWEqOE98wFeY=",
+      "hash": "sha256-dsSz09OeyCyeO65WVwAXqgxXgKr42YoZVcim9rk2lu0=",
       "url": "manifest.webmanifest"
     },
     {
